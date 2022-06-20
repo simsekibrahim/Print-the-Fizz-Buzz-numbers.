@@ -1,0 +1,11 @@
+# Print the Fizz and Buzz numbers.
+
+for i in range(1,101):
+  if int(i) % 5 == 0 and int(i) % 3 == 0:
+    print(f"{i} is FizzBuzz Number")
+  elif int(i) % 3 == 0:
+    print(f"{i} is Fizz Number")
+  elif int(i) % 5 == 0:
+    print(f"{i} is Buzz Number")
+  else:
+    print(i)
